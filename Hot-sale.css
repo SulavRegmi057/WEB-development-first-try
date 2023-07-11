@@ -1,0 +1,72 @@
+/* HOT SALE */
+#hotsale {
+    width: 100%;
+    padding: 70px 0;
+    background: rgba(233, 236, 230, 0.878);
+    text-align: center; /* Center align the content */
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .title-text {
+    margin-bottom: 40px;
+  }
+  
+  .title-text h2 {
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  .title-text h1 {
+    font-size: 40px;
+    color: #333333;
+  }
+  
+  .hot-box {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping to keep the products in a single row */
+    overflow-x: auto; /* Enable horizontal scrolling when necessary */
+    justify-content: flex-start; /* Start alignment for left-to-right scrolling */
+    margin: 20px 0; /* Adjust margin as needed */
+  }
+  
+  .hot-service {
+    flex: 0 0 auto; /* Prevent flex items from growing or shrinking */
+    text-align: center;
+    border-radius: 7px;
+    margin-right: 20px; /* Add spacing between products */
+    background-color: #f7f7f7;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; /* Add transition effect for sliding */
+  }
+  .hot-sales {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 32px;
+    color: #0e0000f2;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .discover {
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    color: #ff6b6b;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .hot-service:last-child {
+    margin-right: 0; /* Remove right margin for the last product */
+  }
+  
+  .hot-service:hover {
+    transform: scale(1.05); /* Apply a slight scale increase on hover */
+  }
+  .hot-service img {
+    max-width: 100%; /* Ensure the image scales proportionally within its container */
+    max-height: 400px; /* Set a maximum height to limit the image size */
+    border-radius: 7px;
+  }
