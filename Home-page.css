@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  #banner {
+    background: url(Photos/Home.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .logo {
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+  }
+  .banner-text {
+    text-align: center;
+    color: rgba(82, 13, 116, 0.911);
+    padding-top: 180px;
+  }
+  .banner-text h1 {
+    font-size: 130px;
+  }
+  .banner-text p {
+    font-size: 20px;
+    font-style: italic;
+  }
+  .banner-btn {
+    margin: 200px auto 0;
+  }
+  .banner-btn a {
+    width: 200px; /* Reduced width for better proportion */
+    height: 40px; /* Increased height for better visibility */
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 0; /* Reduced padding for better alignment */
+    color: #333333; /* Changed text color to a dark gray for better contrast */
+    background-color: rgba(
+      139,
+      139,
+      121,
+      0.029
+    ); /* Added background color for better visibility */
+    border: 1px solid #333333; /* Increased border thickness and changed color for better contrast */
+    border-radius: 4px; /* Added border radius for a more polished look */
+    position: relative;
+    z-index: 1;
+  }
+  
+  .banner-btn a span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #110606e5;
+    z-index: -1;
+    transition: 0.5s;
+  }
+  .banner-btn a:hover span {
+    width: 100%;
+  }
+  .banner-btn a:hover {
+    color: blueviolet;
+  }
+  #sideNav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: lightgoldenrodyellow;
+    z-index: 2;
+    transition: 0.5s;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: cadetblue;
+  }
+  
+  #menuBtn {
+    width: 45px;
+    height: 45px;
+    background: deepskyblue;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 25px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+  }
+  #menuBtn img {
+    width: 20px;
+    margin-top: 10px;
+  }
