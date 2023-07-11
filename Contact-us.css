@@ -1,0 +1,26 @@
+/* Contact */
+#contact {
+  width: 100%;
+  padding: 70px 0;
+  background: rgba(233, 236, 230, 0.878);
+  text-align: center; /* Center align the content */
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.title-text {
+  margin-bottom: 40px;
+}
+
+.title-text h3 {
+  font-size: 20px;
+  color: #333333;
+}
+
+.title-text p {
+  font-size: 30px;
+  color: #333333;
+}
