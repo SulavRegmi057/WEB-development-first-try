@@ -1,0 +1,56 @@
+/* Endorsed Artist */
+#Endorsedartist {
+    font-family: "Pacifico", cursive;
+    font-size: 16px;
+    color: #333333;
+    background-color: antiquewhite;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: auto;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping */
+  }
+  
+  .endorsed-artist {
+    display: inline-block; /* Display inline to arrange items horizontally */
+    text-align: center;
+    border-radius: 7px;
+    margin-right: 20px; /* Add spacing between items */
+    background-color: #f7f7f7;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    vertical-align: top; /* Align items vertically */
+  }
+  
+  .endorsed-artist img {
+    max-width: 70%;
+    max-height: 400px;
+    border-radius: 7px;
+  }
+  
+  .endorsed-artist h3 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 32px;
+    color: #0e0000f2;
+    letter-spacing: 2px;
+  }
+  
+  .endorsed-artist:last-child {
+    margin-right: 0;
+  }
+  
+  .endorsed-artist:hover {
+    transform: scale(1.05);
+  }
+  
+  .statements {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  hr {
+    background: #fff;
+    height: 2px;
+    border: 0;
+  }
