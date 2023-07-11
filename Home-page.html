@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>EQM</title>
+  </head>
+
+  <body>
+    <section id="banner">
+      <img
+        src="Photos/Brown Illustrated Music Store Instrumental Logo.png"
+        width="250"
+        class="logo"
+      />
+      <div class="banner-text">
+        <h2>EQM</h2>
+        <p>
+          Browse through the greatest collection of music accessories available
+          in Nepal
+        </p>
+        <div class="banner-btn">
+          <a href="#"><span></span>Find Music</a>
+          <a href="#"><span></span>Read More</a>
+        </div>
+      </div>
+    </section>
+    <div id="sideNav">
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">Guitars</a></li>
+          <li><a href="#">Bass</a></li>
+          <li><a href="#">Drums</a></li>
+          <li><a href="#">Accessories</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="menuBtn">
+      <img src="Photos/menu.png" id="menu" />
+    </div>
+
+    <script>
+      var menuBtn = document.getElementById("menuBtn");
+      var sideNav = document.getElementById("sideNav");
+      var menu = document.getElementById("menu");
+
+      sideNav.style.right = "-250px";
+
+      menuBtn.onclick = function () {
+        if (sideNav.style.right == "-250px") {
+          sideNav.style.right = "0";
+          menu.src = "Photos/close.png";
+        } else {
+          sideNav.style.right = "-250px";
+          menu.src = "Photos/menu.png";
+        }
+      };
+    </script>
+    </body>
+    </html>
