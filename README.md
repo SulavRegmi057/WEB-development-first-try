@@ -5,7 +5,7 @@ Welcome to Vagrant, an exploration into the boundless realm of the unknown.
 
 ## Description
 
-Vagrant is a profound web project that invites you to embark on a journey of self-discovery and contemplation. It transcends the boundaries of traditional web development, delving into the depths of the human experience and our eternal quest for meaning.
+Vagrant is a profound(actually newbie) web project that invites you to embark on a journey of self-discovery and contemplation. It transcends the boundaries of traditional web development, delving into the depths of the human experience and our eternal quest for meaning.
 
 ## Purpose
 
